@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food store </title>
+    <link rel="stylesheet" href="foodstyle.css">
+</head>
+<body>
+    <nav class="navbar ">
+        <ul class="navlist">
+            <div class="logo"><img src="img/logo.jpg" alt="logo"></div>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="#contact">Contact us</a></li>
+
+        </ul>
+        <div class="rightnav">
+            <input type="text" name="search" name="search" id="search">
+            <button class="srchbtn">Search</button>
+        </div>
+
+    </nav>
+    <section class="boxmain background">
+        <form   action="index1.php"  method="post"    class="form">
+            <div class="email space ">
+              <label for="inputEmail4" class="form-label">Email id</label>
+              <input type="email" id="Emailid" name="Emailid">
+            </div>
+            <div class="password space ">
+              <label for="inputPassword4" class="form-label">password</label>
+              <input type="password"  id="password" name="password">
+            </div>
+            <div class="name space ">
+              <label for="inputAddress" class="form-label">Name</label>
+              <input type="text"  id="Name" placeholder="Enter your full name here" name="Name">
+            <div class="store-name space ">
+              <label for="inputAddress" class="form-label">Store-name</label>
+              <input type="text"  id="Storename" placeholder="Enter the store  name here" name="Storename">
+            </div>
+            <div class="address space ">
+              <label for="inputAddress" class="form-label">Address </label>
+              <input type="text"  id="Address" placeholder="Apartment, studio, or floor" name="Address">
+            </div>
+            <div class="items space ">
+              <label for="inputitems" class="form-label">Items </label>
+              <input type="text"  id="Items" placeholder="Enter the items you want to order" name="Items">
+            </div>
+        
+            <div class="sumbit space ">
+              <button type="submit" class="btn btn-primary">Sumbit</button>
+            </div>
+          </form>
+    </section>
+    <!-- INSERT INTO `food-store` (`S.no.`, `Emailid`, `password`, `Name`, `Storename`, `Address`, `Items`) VALUES ('1', 'ax@asx', 'axs', 'sfdd', 'dfs', 'sfd', 'fds'); -->
+</body>
+</html>

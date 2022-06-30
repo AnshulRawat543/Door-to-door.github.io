@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.navbar {
+    background-color: rgb(68 47 47);
+    display: flex;
+    position: sticky;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.navlist {
+    display: flex;
+
+
+    justify-content: left;
+    text-align: center;
+    width: 63%
+}
+
+.navlist li {
+    padding: 13px;
+
+    list-style: none;
+}
+
+.navlist li a {
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    margin: 31px;
+    font-size: 20px;
+
+}
+.navlist li a:hover{
+    color: black;
+}
+
+.logo {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo img {
+    width: 59px;
+    padding: 0px;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+.rightnav {
+    width: 30%;
+    /* background-color: blue; */
+    padding: 5px;
+    margin: 5px;
+    text-align: right;
+
+}
+
+#search {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 11px;
+}
+
+.srchbtn {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+.background1{
+    background: rgba(0, 0, 0, 0.8) url('img/foodser.webp');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.food{
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 5px
+}
+.foodtl  {
+    cursor: pointer;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.background2{
+    background: rgba(0, 0, 0, 0.8) url('img/electricalser.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.electrical{
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 5px
+}
+.electricaltl {
+    cursor: pointer;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.background3{
+    background: rgba(0, 0, 0, 0.8) url('img/rationser.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.ration{
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 5px
+}
+.rationtl {
+    cursor: pointer;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
